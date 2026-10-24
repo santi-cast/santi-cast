@@ -42,8 +42,8 @@ Un móvil antiguo (Android 8.1, sin actualizaciones de seguridad desde 2019 y co
 - **Salvapantallas con lo que está sonando**, gestos de brillo y volumen, logos de las emisoras de FM e instalación de apps sin salir del bloqueo.
 - **Pensado para montarse sin ordenador** y sin cuenta de Google, con una configuración inicial guiada desde el propio móvil.
 - **Proceso:** desarrollado con agentes de IA (Pi + Gentle Shell y Gentle AI), con test-first (54 tests), commits pequeños y cada función probada en el dispositivo real.
-- **Estado:** versión 1.0.0 publicada, con el APK firmado en [Releases](https://github.com/santi-cast/deskmusicplayer/releases).
-
+- **Estado:** versión 1.1.0 publicada, con el APK firmado en [Releases](https://github.com/santi-cast/deskmusicplayer/releases) y un código QR para activar el modo kiosco sin ordenador.
+  
 ## Tecnologías
 
 ![Java](https://img.shields.io/badge/Java-21-orange?logo=openjdk&logoColor=white)
