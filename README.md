@@ -32,6 +32,16 @@ Es también mi laboratorio para profundizar en áreas que van más allá del des
 - **Proceso:** trabajo con agentes de IA sobre **Pi** + [**Gentle Shell**](https://github.com/Gentleman-Programming/gentle-shell) y [**Gentle AI**](https://github.com/Gentleman-Programming/gentle-ai), aplicando **SDD** (especificación antes del código), **ODD** (trabajo en unidades pequeñas con sus tests) y **RDD** (revisión independiente de cada cambio).
 - **Estado:** el código aún no es público. Handshake entre móvil y tablet funcionando en dispositivos reales; codificador y decodificador implementados; vídeo de extremo a extremo en curso.
 
+### [DeskMusicPlayer](https://github.com/santi-cast/deskmusicplayer)
+
+Un móvil antiguo (Android 8.1, sin actualizaciones de seguridad desde 2019 y con la batería gastada) convertido en un reproductor de música fijo en el escritorio, bloqueado a las apps de música. Nació de reaprovechar un aparato que iba al cajón en lugar de tirarlo. 
+
+- **App Android nativa en Kotlin** que hace de pantalla de inicio y, como *device owner*, bloquea el móvil en modo kiosco a las apps elegidas.
+- **Salvapantallas con lo que está sonando**, gestos de brillo y volumen, logos de las emisoras de FM e instalación de apps sin salir del bloqueo.
+- **Pensado para montarse sin ordenador** y sin cuenta de Google, con una configuración inicial guiada desde el propio móvil.
+- **Proceso:** desarrollado con agentes de IA (Pi + Gentle Shell y Gentle AI), con test-first (54 tests), commits pequeños y cada función probada en el dispositivo real.
+- **Estado:** versión 1.0.0 publicada, con el APK firmado en [Releases](https://github.com/santi-cast/deskmusicplayer/releases).
+
 ## Tecnologías
 
 ![Java](https://img.shields.io/badge/Java-21-orange?logo=openjdk&logoColor=white)
