@@ -2,7 +2,7 @@
 
 **Desarrollador Java · Spring Boot · Android/Kotlin** · Madrid
 
-Tras casi 19 años en Lidl, donde empecé como cajero y llegué a gerente de tienda, he dado el salto al desarrollo de software. Allí planificaba recursos, analizaba cifras y la operativa de la tienda para alcanzar los objetivos, liderando equipos de hasta 35 personas. Ahora aplico esa experiencia al desarrollo de software.
+Estudié Ingeniería Técnica de Telecomunicación hasta el último curso y después de casi 19 años en el sector de la distribución en Lidl, empezando como cajero y llegando a gerente de tienda, he vuelto al sector tecnológico. Como gerente planificaba recursos, analizaba cifras y gestionaba la operativa de la tienda para alcanzar los objetivos, liderando equipos de hasta 35 personas. Ahora aplico esa experiencia al desarrollo de software.
 
 He completado todos los módulos de DAM (2026) y estoy en la fase final de la titulación: la formación en empresa.
 
@@ -31,6 +31,8 @@ Es también mi laboratorio para profundizar en áreas que van más allá del des
 - **Stack:** Kotlin, C++/JNI, MediaCodec y EGL, con Python para herramientas y tests.
 - **Proceso:** trabajo con agentes de IA sobre **Pi** + [**Gentle Shell**](https://github.com/Gentleman-Programming/gentle-shell) y [**Gentle AI**](https://github.com/Gentleman-Programming/gentle-ai), aplicando **SDD** (especificación antes del código), **ODD** (trabajo en unidades pequeñas con sus tests) y **RDD** (revisión independiente de cada cambio).
 - **Estado:** el código aún no es público. Handshake entre móvil y tablet funcionando en dispositivos reales; codificador y decodificador implementados; vídeo de extremo a extremo en curso.
+
+## Otros proyectos
 
 ### [DeskMusicPlayer](https://github.com/santi-cast/deskmusicplayer)
 
