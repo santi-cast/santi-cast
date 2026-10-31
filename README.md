@@ -30,7 +30,7 @@ Es también mi laboratorio para profundizar en áreas que van más allá del des
 
 - **Stack:** Kotlin, MediaCodec y EGL, con Python para herramientas, tests y una sonda de protocolo.
 - **Proceso:** trabajo con agentes de IA sobre **Pi** + [**Gentle Shell**](https://github.com/Gentleman-Programming/gentle-shell) y [**Gentle AI**](https://github.com/Gentleman-Programming/gentle-ai), aplicando **SDD** (especificación antes del código), **ODD** (trabajo en unidades pequeñas con sus tests) y **RDD** (revisión independiente de cada cambio), además de diagnóstico con dispositivos reales: el agente opera `adb` con permisos que yo autorizo y compara nuestras sesiones con un sistema de referencia.
-- **Estado:** el código aún no es público. Núcleo de sesión y decodificador implementados y testeados; la sonda de protocolo ya negocia versión, TLS y descubrimiento con el móvil real; el siguiente paso es la arquitectura del receptor.
+- **Estado:** el código aún no es público. Núcleo de sesión y decodificador implementados y testeados; la sonda de protocolo ya consigue que el móvil acepte la sesión y abra todos los canales; el siguiente paso es el primer vídeo en la tablet.
 
 ## Otros proyectos
 
