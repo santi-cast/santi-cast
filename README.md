@@ -24,7 +24,7 @@ Registro horario y gestión de ausencias para pymes, diseñado en torno a los re
 
 ### [MyCarDisplay](https://github.com/santi-cast/mycardisplay)
 
-Una app Android que convierte una tablet vieja en la pantalla de un coche que no la tiene: muestra Android Auto proyectado desde el móvil (Google Maps, música y asistente) por Wi-Fi local. Nació de tener un coche antiguo, sin pantalla ni navegador.
+Una app Android que convierte una tablet vieja en la pantalla de un coche que no la tiene: muestra Android Auto proyectado desde el móvil (Google Maps, música y asistente) por Wi-Fi local. Nació de tener un coche antiguo, sin pantalla ni navegador. Todo el sonido (música, navegación, llamadas y lectura de mensajes) sigue saliendo por la radio del coche, conectada al móvil por Bluetooth.
 
 Es también mi laboratorio para profundizar en áreas que van más allá del desarrollo Android habitual: protocolos entre dispositivos, TLS, vídeo y APIs multimedia de bajo nivel. Lo desarrollo con un flujo de trabajo asistido por agentes de IA, manteniendo el control sobre el alcance, las decisiones técnicas y la validación del resultado.
 
