@@ -24,13 +24,13 @@ Registro horario y gestión de ausencias para pymes, diseñado en torno a los re
 
 ### [MyCarDisplay](https://github.com/santi-cast/mycardisplay)
 
-Dos apps Android que convierten una tablet en la pantalla del coche, proyectando navegación y multimedia desde el móvil por Wi-Fi local.
+Una app Android que convierte una tablet vieja en la pantalla de un coche que no la tiene: muestra Android Auto proyectado desde el móvil (Google Maps, música y asistente) por Wi-Fi local. Nació de tener un coche antiguo, sin pantalla ni navegador.
 
-Es también mi laboratorio para profundizar en áreas que van más allá del desarrollo Android habitual: comunicación entre dispositivos, vídeo, APIs multimedia de bajo nivel y C++/JNI. Lo desarrollo utilizando un flujo de trabajo asistido por agentes de IA, manteniendo el control sobre el alcance, las decisiones técnicas y la validación del resultado.
+Es también mi laboratorio para profundizar en áreas que van más allá del desarrollo Android habitual: protocolos entre dispositivos, TLS, vídeo y APIs multimedia de bajo nivel. Lo desarrollo con un flujo de trabajo asistido por agentes de IA, manteniendo el control sobre el alcance, las decisiones técnicas y la validación del resultado.
 
-- **Stack:** Kotlin, C++/JNI, MediaCodec y EGL, con Python para herramientas y tests.
-- **Proceso:** trabajo con agentes de IA sobre **Pi** + [**Gentle Shell**](https://github.com/Gentleman-Programming/gentle-shell) y [**Gentle AI**](https://github.com/Gentleman-Programming/gentle-ai), aplicando **SDD** (especificación antes del código), **ODD** (trabajo en unidades pequeñas con sus tests) y **RDD** (revisión independiente de cada cambio).
-- **Estado:** el código aún no es público. Handshake entre móvil y tablet funcionando en dispositivos reales; codificador y decodificador implementados; vídeo de extremo a extremo en curso.
+- **Stack:** Kotlin, MediaCodec y EGL, con Python para herramientas, tests y una sonda de protocolo.
+- **Proceso:** trabajo con agentes de IA sobre **Pi** + [**Gentle Shell**](https://github.com/Gentleman-Programming/gentle-shell) y [**Gentle AI**](https://github.com/Gentleman-Programming/gentle-ai), aplicando **SDD** (especificación antes del código), **ODD** (trabajo en unidades pequeñas con sus tests) y **RDD** (revisión independiente de cada cambio), además de diagnóstico con dispositivos reales: el agente opera `adb` con permisos que yo autorizo y compara nuestras sesiones con un sistema de referencia.
+- **Estado:** el código aún no es público. Núcleo de sesión y decodificador implementados y testeados; la sonda de protocolo ya negocia versión, TLS y descubrimiento con el móvil real; el siguiente paso es la arquitectura del receptor.
 
 ## Otros proyectos
 
@@ -52,7 +52,6 @@ Un móvil antiguo (Android 8.1, sin actualizaciones de seguridad desde 2019 y co
 ![Android](https://img.shields.io/badge/Android-nativo-3DDC84?logo=android&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-8-4479A1?logo=mysql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-JNI-00599C?logo=cplusplus&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
 
 ## Cómo trabajo
