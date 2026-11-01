@@ -30,7 +30,7 @@ Es también mi laboratorio para profundizar en áreas que van más allá del des
 
 - **Stack:** Kotlin, MediaCodec y EGL, con Python para herramientas, tests y una sonda de protocolo.
 - **Proceso:** trabajo con agentes de IA sobre **Pi** + [**Gentle Shell**](https://github.com/Gentleman-Programming/gentle-shell) y [**Gentle AI**](https://github.com/Gentleman-Programming/gentle-ai), aplicando **SDD** (especificación antes del código), **ODD** (trabajo en unidades pequeñas con sus tests) y **RDD** (revisión independiente de cada cambio), además de diagnóstico con dispositivos reales: el agente opera `adb` con permisos que yo autorizo y compara nuestras sesiones con un sistema de referencia.
-- **Estado:** el código aún no es público. Mi receptor en Kotlin ya muestra en la tablet Android Auto proyectado desde el móvil real (primer fotograma en 6,6 s y una sesión estable de 27 minutos); el siguiente paso es el táctil.
+- **Estado:** el código aún no es público. Mi receptor en Kotlin ya muestra en la tablet Android Auto proyectado desde el móvil real, a pantalla completa y con la distribución original, y se maneja desde la propia tablet: toques, desplazamiento y zoom con dos dedos. El siguiente paso es el micrófono para el asistente.
 
 ## Otros proyectos
 
