@@ -8,7 +8,7 @@ He completado todos los módulos de DAM (2026) y estoy en la fase final de la ti
 
 🔎 **Busco:** empresa donde realizar la formación en empresa de DAM (prácticas/FCT) y, después, mi primera oportunidad profesional como desarrollador.
 
-## Proyecto destacado
+## Proyectos destacados
 
 ### [StaffFlow](https://github.com/santi-cast/staffflow)
 
