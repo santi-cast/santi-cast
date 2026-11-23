@@ -57,10 +57,13 @@ Un móvil antiguo (Android 8.1, sin actualizaciones de seguridad desde 2019 y co
   
 ## Tecnologías
 
-![Java](https://img.shields.io/badge/Java-21-orange?logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.5-6DB33F?logo=springboot&logoColor=white)
+![Java](https://img.shields.io/badge/Java-21_|_25-orange?logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.5_|_4.1-6DB33F?logo=springboot&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-2.1-7F52FF?logo=kotlin&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-nativo-3DDC84?logo=android&logoColor=white)
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-18-4169E1?logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-8-4479A1?logo=mysql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
@@ -71,6 +74,7 @@ Un móvil antiguo (Android 8.1, sin actualizaciones de seguridad desde 2019 y co
 - No considero terminado un desarrollo solo porque funcione: en StaffFlow incorporé 341 tests, reglas de arquitectura con ArchUnit e integración continua con GitHub Actions.
 - Documento las decisiones importantes y también las limitaciones conocidas del proyecto, para que quede claro no solo **qué** hace el código, sino también **por qué** se ha diseñado de esa manera y qué queda por mejorar.
 - En MyCarDisplay estoy llevando esa forma de trabajar a problemas técnicos nuevos y al desarrollo asistido por agentes: especificación antes del código, unidades pequeñas con sus tests y revisión independiente de cada cambio, manteniendo yo el control sobre el alcance y las decisiones técnicas.
+- En MyOpenAcademy coordino varios repositorios que evolucionan a la vez (la academia, un kit de herramientas y cada curso) mediante un contrato de formato con versión, de modo que los cursos y la plataforma pueden cambiar por separado sin romperse. El plan, las decisiones y el estado del proyecto son públicos y están escritos, no en la cabeza ni en el historial de un chat.
 
 ## Contacto
 
