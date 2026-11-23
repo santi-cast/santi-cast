@@ -20,6 +20,17 @@ Registro horario y gestión de ausencias para pymes, diseñado en torno a los re
 - **Despliegue:** JAR o Docker, con guía de instalación y documentación técnica.
 - **Demo en 5 minutos** con datos de prueba e instrucciones en el README.
 
+### [MyOpenAcademy](https://github.com/santi-cast/myopenacademy)
+
+Una academia de programación **libre y gratuita** que se amplía como un videojuego con DLC: la academia es el juego base, que instalas una vez, y cada curso es una expansión que añades cuando quieres, actualizas a su versión nueva sin perder tu progreso y que cualquiera puede crear. Nació de un curso de Java de 199 módulos que escribí para estudiar y que necesitaba una plataforma a su medida.
+
+- **Plataforma:** Java 25, Spring Boot 4.1, React 19 con TypeScript y PostgreSQL 18, todo con Docker Compose. Varios usuarios con roles, progreso por lección y por ejercicio, modo oscuro y descargas del código en ZIP.
+- **Cursos como paquetes (los DLC):** cada curso vive en su propio repositorio y cualquiera puede crear el suyo siguiendo el contrato de formato, [`FORMATO.md`](https://github.com/myopenacademy/kit-cursos/blob/main/FORMATO.md). El [kit de cursos](https://github.com/myopenacademy/kit-cursos) trae las plantillas y un comprobador que dice si el curso cumple el formato y se puede instalar. La academia lo instala desde una etiqueta de Git, con identificadores estables para que el progreso sobreviva a las actualizaciones.
+- **Primer curso:** [Fundamentos para programar](https://github.com/myopenacademy/curso-inicial), con 8 fases, 31 módulos y 219 ejercicios, y todo el código y las salidas verificados en una terminal de Docker.
+- **Calidad:** más de 750 pruebas de backend, frontend y extremo a extremo, `gitleaks` en todo el historial y una pasada con navegador sobre la instancia real antes de publicar.
+- **Proceso:** una sesión de agente de IA por proyecto (academia, kit y cursos), coordinadas desde una [planificación común](https://github.com/myopenacademy/proyecto), con el mismo flujo de trabajo (Pi + Gentle Shell y Gentle AI). Yo decido el alcance y reviso y apruebo cada fase.
+- **Estado:** versión 1.0.0 publicada, el pack base. En preparación, el primer curso aparte: **Java de 0 a experto**. Previstos después: SQL y bases de datos, Git y GitHub a fondo, Python, IA aplicada con Java y Kotlin para desarrolladores Java ([hoja de ruta](https://github.com/myopenacademy/proyecto/blob/main/PLAN.md#7-orden-de-trabajo)).
+
 ## En desarrollo
 
 ### [MyCarDisplay](https://github.com/santi-cast/mycardisplay)
