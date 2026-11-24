@@ -29,7 +29,7 @@ Una academia de programación **libre y gratuita** que se amplía como un videoj
 - **Primer curso:** [Fundamentos para programar](https://github.com/myopenacademy/curso-inicial), con 8 fases, 31 módulos y 219 ejercicios, y todo el código y las salidas verificados en una terminal de Docker.
 - **Calidad:** más de 750 pruebas de backend, frontend y extremo a extremo, `gitleaks` en todo el historial y una pasada con navegador sobre la instancia real antes de publicar.
 - **Proceso:** una sesión de agente de IA por proyecto (academia, kit y cursos), coordinadas desde una [planificación común](https://github.com/myopenacademy/proyecto), con el mismo flujo de trabajo (Pi + Gentle Shell y Gentle AI). Yo decido el alcance y reviso y apruebo cada fase.
-- **Estado:** versión 1.0.0 publicada, el pack base. En preparación, el primer curso aparte: **Java de 0 a experto**. Previstos después: SQL y bases de datos, Git y GitHub a fondo, Python, IA aplicada con Java y Kotlin para desarrolladores Java ([hoja de ruta](https://github.com/myopenacademy/proyecto/blob/main/PLAN.md#7-orden-de-trabajo)).
+- **Estado:** versión 1.1.0 publicada: cursos divididos en partes, avance por fase y descarga del proyecto entero (Maven o Gradle) en cada ejemplo; el kit 1.1.0 ya verifica código Java. En preparación, el primer curso aparte: **Java de 0 a experto**. Previstos después: SQL y bases de datos, Git y GitHub a fondo, Python, IA aplicada con Java y Kotlin para desarrolladores Java ([hoja de ruta](https://github.com/myopenacademy/proyecto/blob/main/PLAN.md#7-orden-de-trabajo)).
 
 ## En desarrollo
 
